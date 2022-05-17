@@ -28,7 +28,7 @@ function Panel({ updatedAt, onChange, data, country, getCovidData }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'http://localhost:3000',
+      url: 'https://mapping-covido-19.vercel.app/',
     });
   };
 
