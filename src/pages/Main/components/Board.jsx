@@ -4,7 +4,6 @@ import { Grid, Skeleton } from 'components';
 import Card from './Card';
 
 function Board({ data }) {
-  console.log(data);
   const { cases, todayDeaths, recovered, deaths, todayCases } = data;
 
   const getValue = (value) =>
