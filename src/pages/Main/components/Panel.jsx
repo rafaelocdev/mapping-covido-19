@@ -13,7 +13,7 @@ function Panel({ updatedAt, onChange, data, country, getCovidData }) {
     <MenuItem key={`country-${index}`} value={country.value}>
       <ItemStyled>
         <div>{country.label}</div>
-        <img src={country.flag} alt={`País-${country.label}`} />
+        <img src={country.flag} alt={`País-${country.label}`} width="32px" />
       </ItemStyled>
     </MenuItem>
   );
